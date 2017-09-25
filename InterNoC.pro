@@ -1,4 +1,4 @@
-update=21-Sep-17 4:19:47 PM
+update=25-Sep-17 10:24:12 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,5 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
-LibName30=valves
-LibName31=xilinx7
-LibName32=switches
+LibName30=xilinx7
+LibName31=switches

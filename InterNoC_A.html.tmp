@@ -1,0 +1,798 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<h2>KiBoM PCB Bill of Materials</h2>
+<table border="1">
+<tr><td>Source File</td><td>C:/Users/chris/OneDrive/HW_Projects/InterNoC/Board/InterNoC.sch</td></tr>
+<tr><td>BoM Date</td><td>25-Sep-17 9:55:41 PM</td></tr>
+<tr><td>Schematic Version</td><td>A</td></tr>
+<tr><td>Schematic Date</td><td>2017-09-16</td></tr>
+<tr><td>KiCad Version</td><td>Eeschema 4.0.6</td></tr>
+<tr><td>Component Groups</td><td>76</td></tr>
+<tr><td>Component Count (per PCB)</td><td>365</td></tr>
+<tr><td>Fitted Components (per PCB)</td><td>365</td></tr>
+<tr><td>Number of PCBs</td><td>1</td></tr>
+<tr><td>Total Component Count<br>(for 1 PCBs)</td><td>365</td></tr>
+</table>
+<br>
+<h2>Component Groups</h2>
+<p style="background-color: #FFE6B3">Kicad Fields (default)</p>
+<p style="background-color: #E6FFEE">Generated Fields</p>
+<p style="background-color: #E6F9FF">User Fields</p>
+<p style="background-color: #FF8080">Empty Fields</p>
+<table border="1">
+<tr>
+	<th></th>
+	<th align="center" bgcolor="#FFE6B3">Description</th>
+	<th align="center" bgcolor="#FFE6B3">Part</th>
+	<th align="center" bgcolor="#FFE6B3">References</th>
+	<th align="center" bgcolor="#FFE6B3">Value</th>
+	<th align="center" bgcolor="#FFE6B3">Footprint</th>
+	<th align="center" bgcolor="#E6FFEE">Quantity Per PCB</th>
+	<th align="center" bgcolor="#FFE6B3">Datasheet</th>
+</tr>
+<tr>
+	<td align="center">1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C4 C6 C7 C13 C46 C110</td>
+	<td align="center" bgcolor=#FFE6B3>0.1uF</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>6</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">2</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C12 C16 C19</td>
+	<td align="center" bgcolor=#FFE6B3>100nF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">3</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C32 C42 C61 C62 C71 C80 C82</td>
+	<td align="center" bgcolor=#FFE6B3>100uF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_1210_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>7</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">4</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C5 C9 C14 C114</td>
+	<td align="center" bgcolor=#FFE6B3>10nF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">5</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C2</td>
+	<td align="center" bgcolor=#FFE6B3>10uF</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">6</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C1 C3 C8 C10 C11 C15</td>
+	<td align="center" bgcolor=#FFE6B3>10uF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>6</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">7</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C17</td>
+	<td align="center" bgcolor=#FFE6B3>220nF</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">8</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C33 C34 C43 C44</td>
+	<td align="center" bgcolor=#FFE6B3>4.7uF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_1210_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">9</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C59 C60 C63 C64 C72 C73 C83 C84 C87 C88 C91 C94</td>
+	<td align="center" bgcolor=#FFE6B3>4.7uF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0805_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>12</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">10</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C112</td>
+	<td align="center" bgcolor=#FFE6B3>470nF</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">11</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C35 C36 C37 C38 C39 C45 C47 C48 C49 C50 C55 C56 C57 C58 C65 C66 C67 C68 C74 C75 C76 C77 C85 C90 C92 C93 C95 C96 C97 C98 C99 C100 C104 C109</td>
+	<td align="center" bgcolor=#FFE6B3>470nF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>34</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">12</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C40 C41 C51 C52 C53 C54 C69 C70 C78 C79 C89 C101 C102 C103 C105 C106 C108 C111 C113</td>
+	<td align="center" bgcolor=#FFE6B3>47nF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>19</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">13</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C107</td>
+	<td align="center" bgcolor=#FFE6B3>47uF</td>
+	<td align="center" bgcolor=#FFE6B3>C_1210_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">14</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C81 C86</td>
+	<td align="center" bgcolor=#FFE6B3>47uF X5R</td>
+	<td align="center" bgcolor=#FFE6B3>C_1210_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">15</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>C_Small</td>
+	<td align="center" bgcolor=#FFE6B3>C18 C20</td>
+	<td align="center" bgcolor=#FFE6B3>680nF</td>
+	<td align="center" bgcolor=#FFE6B3>C_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">16</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>D_Zener_Small</td>
+	<td align="center" bgcolor=#FFE6B3>D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D58 D59 D60 D61 D62 D63 D64 D65 D66 D67 D68 D69 D70 D71 D72 D73 D74 D75 D76 D77 D78 D79 D80 D81 D82 D83 D84 D85 D86 D87 D88 D89 D90 D91 D93 D94 D95 D96</td>
+	<td align="center" bgcolor=#FFE6B3>3.3v</td>
+	<td align="center" bgcolor=#FFE6B3>D_SOD-123</td>
+	<td align="center" bgcolor=#E6FFEE>70</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">17</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>D_Zener_Small</td>
+	<td align="center" bgcolor=#FFE6B3>D97</td>
+	<td align="center" bgcolor=#FFE6B3>6v</td>
+	<td align="center" bgcolor=#FFE6B3>D_SOD-123</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">18</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>LED</td>
+	<td align="center" bgcolor=#FFE6B3>D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D92</td>
+	<td align="center" bgcolor=#FFE6B3>LED</td>
+	<td align="center" bgcolor=#FFE6B3>LED_0805_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>26</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">19</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>BARREL_JACK</td>
+	<td align="center" bgcolor=#FFE6B3>J1</td>
+	<td align="center" bgcolor=#FFE6B3>BARREL_JACK</td>
+	<td align="center" bgcolor=#FFE6B3>BARREL_JACK</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">20</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X02</td>
+	<td align="center" bgcolor=#FFE6B3>J2</td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X02</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x02_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">21</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J8</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_MASTER_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">22</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J9</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_MASTER_2</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">23</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J10</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_MASTER_3</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">24</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J11</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_MASTER_4</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">25</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J16</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">26</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J17</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_2</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">27</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J18</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_3</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">28</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J19</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_4</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">29</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J24</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_5</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">30</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J25</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_6</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">31</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J26</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_7</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">32</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J27</td>
+	<td align="center" bgcolor=#FFE6B3>I2C_SLAVE_8</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">33</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X07</td>
+	<td align="center" bgcolor=#FFE6B3>J32</td>
+	<td align="center" bgcolor=#FFE6B3>JTAG HEADER</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x07_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">34</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J13</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_MASTER_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">35</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J14</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_MASTER_2</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">36</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J15</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_MASTER_3</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">37</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J21</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">38</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J22</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_2</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">39</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J23</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_3</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">40</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J29</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_4</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">41</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J30</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_5</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">42</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_02X03</td>
+	<td align="center" bgcolor=#FFE6B3>J31</td>
+	<td align="center" bgcolor=#FFE6B3>SPI_SLAVE_6</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_2x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">43</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1P</td>
+	<td align="center" bgcolor=#FFE6B3>J6</td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1V0</td>
+	<td align="center" bgcolor=#FFE6B3>PINTST</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">44</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1P</td>
+	<td align="center" bgcolor=#FFE6B3>J5</td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1V8</td>
+	<td align="center" bgcolor=#FFE6B3>PINTST</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">45</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1P</td>
+	<td align="center" bgcolor=#FFE6B3>J7</td>
+	<td align="center" bgcolor=#FFE6B3>TEST_3V3</td>
+	<td align="center" bgcolor=#FFE6B3>PINTST</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">46</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1P</td>
+	<td align="center" bgcolor=#FFE6B3>J4</td>
+	<td align="center" bgcolor=#FFE6B3>TEST_GND</td>
+	<td align="center" bgcolor=#FFE6B3>PINTST</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">47</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TEST_1P</td>
+	<td align="center" bgcolor=#FFE6B3>J3</td>
+	<td align="center" bgcolor=#FFE6B3>TEST_PW_IN</td>
+	<td align="center" bgcolor=#FFE6B3>PINTST</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">48</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J12</td>
+	<td align="center" bgcolor=#FFE6B3>UART_MASTER_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">49</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J20</td>
+	<td align="center" bgcolor=#FFE6B3>UART_SLAVE_1</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">50</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>CONN_01X03</td>
+	<td align="center" bgcolor=#FFE6B3>J28</td>
+	<td align="center" bgcolor=#FFE6B3>UART_SLAVE_2</td>
+	<td align="center" bgcolor=#FFE6B3>Pin_Header_Straight_1x03_Pitch2.54mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">51</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>Ferrite_Bead_Small</td>
+	<td align="center" bgcolor=#FFE6B3>L4 L5</td>
+	<td align="center" bgcolor=#FFE6B3>600Ohm/100Mhz</td>
+	<td align="center" bgcolor=#FFE6B3>L_0805_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">52</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>Q_NMOS_DGS</td>
+	<td align="center" bgcolor=#FFE6B3>Q1</td>
+	<td align="center" bgcolor=#FFE6B3>FDV301N</td>
+	<td align="center" bgcolor=#FFE6B3>SOT-23_Handsoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">53</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>Q_NMOS_DGS</td>
+	<td align="center" bgcolor=#FFE6B3>Q2</td>
+	<td align="center" bgcolor=#FFE6B3>Q_NMOS_DGS</td>
+	<td align="center" bgcolor=#FFE6B3>SOT-23_Handsoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">54</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R2</td>
+	<td align="center" bgcolor=#FFE6B3>1.15K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">55</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R1</td>
+	<td align="center" bgcolor=#FFE6B3>1.5K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">56</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R5</td>
+	<td align="center" bgcolor=#FFE6B3>1.87K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">57</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R10</td>
+	<td align="center" bgcolor=#FFE6B3>10.2K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">58</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R114 R115 R116 R117</td>
+	<td align="center" bgcolor=#FFE6B3>100R</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">59</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R16 R17 R118 R119</td>
+	<td align="center" bgcolor=#FFE6B3>10K</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">60</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R3 R4 R7 R18</td>
+	<td align="center" bgcolor=#FFE6B3>10K</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">61</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R11</td>
+	<td align="center" bgcolor=#FFE6B3>2.55K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">62</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R44 R45 R46 R47 R48 R49 R50 R51 R52 R53 R54 R55 R56 R57 R58 R59 R60 R61 R62 R63 R64 R65 R66 R67 R68 R69 R70 R71 R72 R73 R74 R75 R76 R77 R78 R79 R80 R81 R82 R83 R84 R85 R86 R87 R88 R89 R90 R91 R92 R93 R94 R95 R96 R97 R98 R99 R100 R101 R102 R103 R104 R105 R106 R107 R108 R109</td>
+	<td align="center" bgcolor=#FFE6B3>200</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>66</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">63</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R8</td>
+	<td align="center" bgcolor=#FFE6B3>20K</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">64</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R6</td>
+	<td align="center" bgcolor=#FFE6B3>3.57K 1%</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">65</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R20 R21 R22 R23 R24 R25 R26 R27 R28 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R40 R41 R42 R43 R111</td>
+	<td align="center" bgcolor=#FFE6B3>330R</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>25</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">66</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R13 R14 R15 R110 R112 R113</td>
+	<td align="center" bgcolor=#FFE6B3>4.7K</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>6</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">67</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R9 R12</td>
+	<td align="center" bgcolor=#FFE6B3>56K</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">68</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>R_Small</td>
+	<td align="center" bgcolor=#FFE6B3>R19</td>
+	<td align="center" bgcolor=#FFE6B3>680R</td>
+	<td align="center" bgcolor=#FFE6B3>R_0603_HandSoldering</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">69</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>SW_Push</td>
+	<td align="center" bgcolor=#FFE6B3>SW2</td>
+	<td align="center" bgcolor=#FFE6B3>RST_CONF</td>
+	<td align="center" bgcolor=#FFE6B3>SW_SPST_PTS645</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">70</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>SW_Push</td>
+	<td align="center" bgcolor=#FFE6B3>SW3 SW4</td>
+	<td align="center" bgcolor=#FFE6B3>SW_Push</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">71</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>SW_SPDT</td>
+	<td align="center" bgcolor=#FFE6B3>SW1</td>
+	<td align="center" bgcolor=#FFE6B3>SW_SPDT</td>
+	<td align="center" bgcolor=#FFE6B3>SW_DIP_x1_W5.08mm_Slide_Copal_CHS-A</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">72</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>ABRACON_ASDM1-100.000MHZ-LC-T</td>
+	<td align="center" bgcolor=#FFE6B3>U4</td>
+	<td align="center" bgcolor=#FFE6B3>ABRACON_ASDM1-100.000MHZ-LC-T</td>
+	<td align="center" bgcolor=#FFE6B3>Crystal_SMD_2520-4pin_2.5x2.0mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">73</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>S25FL128SAGBHIA00</td>
+	<td align="center" bgcolor=#FFE6B3>U5</td>
+	<td align="center" bgcolor=#FFE6B3>S25FL128SAGBHIA00</td>
+	<td align="center" bgcolor=#FFE6B3>BGA-25_5x5_6.35x6.35mm_Pitch1.27mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">74</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TPS7A9101DSKT</td>
+	<td align="center" bgcolor=#FFE6B3>U1 U6</td>
+	<td align="center" bgcolor=#FFE6B3>TPS7A9101DSKT</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">75</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>TPS7A9201DSKR</td>
+	<td align="center" bgcolor=#FFE6B3>U2</td>
+	<td align="center" bgcolor=#FFE6B3>TPS7A9201DSKR</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">76</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FFE6B3>xc7a35tfgg484</td>
+	<td align="center" bgcolor=#FFE6B3>U3</td>
+	<td align="center" bgcolor=#FFE6B3>xc7a35tfgg484</td>
+	<td align="center" bgcolor=#FFE6B3>BGA-484_22x22_23.0x23.0mm_Pitch1.0mm</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+</table>
+<br><br>
+</body></html>

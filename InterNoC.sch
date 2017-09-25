@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "InterNoC Proto Bpard"
+Title "InterNoC Proto Board"
 Date "2017-09-16"
 Rev "A"
 Comp "LCLogic"
@@ -70,11 +70,11 @@ F1 "Masters.sch" 60
 F2 "VCC3V3" I R 3000 3700 60 
 $EndSheet
 $Sheet
-S 9000 3300 1600 2000
+S 9000 3500 1600 2000
 U 59BF713E
 F0 "SlaveInterfaces" 60
 F1 "Slaves.sch" 60
-F2 "VCC3V3" I L 9000 3450 60 
+F2 "VCC3V3" I L 9000 3650 60 
 $EndSheet
 $Sheet
 S 4400 3250 3200 2300
@@ -114,8 +114,18 @@ Wire Wire Line
 Wire Wire Line
 	5000 2950 8650 2950
 Wire Wire Line
-	8650 2950 8650 3450
+	8650 2950 8650 3650
 Wire Wire Line
-	8650 3450 9000 3450
+	8650 3650 9000 3650
 Connection ~ 5000 1550
+Text Notes 4850 4550 0    236  ~ 47
+Xilinx Artix 7
+Text Notes 800  1700 0    118  ~ 24
+Power -\nLTC3633\nLTC3621
+Text Notes 1450 4700 0    118  ~ 24
+Master Interfaces\n3-SPI\n4-I2C\n1-UART
+Text Notes 9050 4750 0    118  ~ 24
+Slave Interfaces\n6-SPI\n8-I2C\n2-UART
+Text Notes 5700 2250 0    118  ~ 24
+Misc\n100Mhz osc\n28 LEDs 
 $EndSCHEMATC
