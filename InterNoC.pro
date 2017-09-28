@@ -1,4 +1,4 @@
-update=25-Sep-17 10:24:12 PM
+update=28-Sep-17 8:11:30 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -51,12 +51,11 @@ LibName19=intel
 LibName20=audio
 LibName21=interface
 LibName22=digital-audio
-LibName23=philips
-LibName24=display
-LibName25=cypress
-LibName26=siliconi
-LibName27=opto
-LibName28=atmel
-LibName29=contrib
-LibName30=xilinx7
-LibName31=switches
+LibName23=display
+LibName24=cypress
+LibName25=siliconi
+LibName26=opto
+LibName27=atmel
+LibName28=contrib
+LibName29=xilinx7
+LibName30=switches
