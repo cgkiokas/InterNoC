@@ -28,7 +28,6 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:xilinx7
 LIBS:switches
 LIBS:InterNoC-cache
@@ -40,8 +39,8 @@ Sheet 1 6
 Title "InterNoC Proto Board"
 Date "2017-09-16"
 Rev "A"
-Comp "LCLogic"
-Comment1 "Chris Gkiokas"
+Comp "Chris Gkiokas & Lefteris Kyriakakis"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -120,12 +119,12 @@ Wire Wire Line
 Connection ~ 5000 1550
 Text Notes 4850 4550 0    236  ~ 47
 Xilinx Artix 7
-Text Notes 800  1700 0    118  ~ 24
-Power -\nLTC3633\nLTC3621
+Text Notes 800  1950 0    79   ~ 16
+Power -\n2xTPS7A9101DSKT\nTPS7A9201DSKR
 Text Notes 1450 4700 0    118  ~ 24
 Master Interfaces\n3-SPI\n4-I2C\n1-UART
 Text Notes 9050 4750 0    118  ~ 24
 Slave Interfaces\n6-SPI\n8-I2C\n2-UART
-Text Notes 5700 2250 0    118  ~ 24
-Misc\n100Mhz osc\n28 LEDs 
+Text Notes 6100 2300 0    118  ~ 24
+Misc\n100Mhz osc\n24 LEDs \n2 Buttons
 $EndSCHEMATC

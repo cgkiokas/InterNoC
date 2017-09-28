@@ -28,7 +28,6 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:xilinx7
 LIBS:switches
 LIBS:InterNoC-cache
@@ -40,8 +39,8 @@ Sheet 5 6
 Title "InterNoC Proto Board"
 Date "2017-09-16"
 Rev "A"
-Comp "LCLogic"
-Comment1 "Chris Gkiokas"
+Comp "Chris Gkiokas & Lefteris Kyriakakis"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -52,7 +51,7 @@ U 6 1 59BF7D8D
 P 9750 800
 F 0 "U3" H 9950 1050 60  0000 L CNN
 F 1 "xc7a35tfgg484" H 9950 950 60  0000 L CNN
-F 2 "Housings_BGA:BGA-484_22x22_23.0x23.0mm_Pitch1.0mm" H 9750 800 60  0001 C CNN
+F 2 "InterNoC:XC7A35T-1FGG484C" H 9750 800 60  0001 C CNN
 F 3 "" H 9750 800 60  0001 C CNN
 	6    9750 800 
 	1    0    0    -1  
@@ -63,7 +62,7 @@ U 3 1 59BF7DEC
 P 4050 800
 F 0 "U3" H 4250 1050 60  0000 L CNN
 F 1 "xc7a35tfgg484" H 4250 950 60  0000 L CNN
-F 2 "Housings_BGA:BGA-484_22x22_23.0x23.0mm_Pitch1.0mm" H 4050 800 60  0001 C CNN
+F 2 "InterNoC:XC7A35T-1FGG484C" H 4050 800 60  0001 C CNN
 F 3 "" H 4050 800 60  0001 C CNN
 	3    4050 800 
 	1    0    0    -1  
