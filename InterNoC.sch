@@ -21,7 +21,6 @@ LIBS:intel
 LIBS:audio
 LIBS:interface
 LIBS:digital-audio
-LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
@@ -66,14 +65,12 @@ S 1400 3550 1600 1750
 U 59BF713B
 F0 "MasterInterfaces" 60
 F1 "Masters.sch" 60
-F2 "VCC3V3" I R 3000 3700 60 
 $EndSheet
 $Sheet
 S 9000 3500 1600 2000
 U 59BF713E
 F0 "SlaveInterfaces" 60
 F1 "Slaves.sch" 60
-F2 "VCC3V3" I L 9000 3650 60 
 $EndSheet
 $Sheet
 S 4400 3250 3200 2300
@@ -103,20 +100,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 3500 4400 3500
 Connection ~ 4300 1550
-Wire Wire Line
-	3000 3700 3300 3700
-Wire Wire Line
-	3300 3700 3300 1550
-Connection ~ 3300 1550
-Wire Wire Line
-	5000 1550 5000 2950
-Wire Wire Line
-	5000 2950 8650 2950
-Wire Wire Line
-	8650 2950 8650 3650
-Wire Wire Line
-	8650 3650 9000 3650
-Connection ~ 5000 1550
 Text Notes 4850 4550 0    236  ~ 47
 Xilinx Artix 7
 Text Notes 800  1950 0    79   ~ 16

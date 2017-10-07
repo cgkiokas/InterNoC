@@ -21,7 +21,6 @@ LIBS:intel
 LIBS:audio
 LIBS:interface
 LIBS:digital-audio
-LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
@@ -1142,7 +1141,7 @@ Wire Wire Line
 	2000 4350 1900 4350
 Connection ~ 1900 4350
 Wire Wire Line
-	3100 3850 6250 3850
+	3100 3850 6300 3850
 Wire Wire Line
 	4700 3850 4700 3900
 Wire Wire Line
