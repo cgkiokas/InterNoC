@@ -38,8 +38,8 @@ Sheet 2 6
 Title "InterNoC Proto Board"
 Date "2017-09-16"
 Rev "A"
-Comp "Chris Gkiokas & Lefteris Kyriakakis"
-Comment1 ""
+Comp "LCLogic"
+Comment1 "Chris Gkiokas & Lefteris Kyriakakis"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -592,13 +592,13 @@ $EndComp
 $Comp
 L GND #PWR018
 U 1 1 59C8004D
-P 1900 4500
-F 0 "#PWR018" H 1900 4250 50  0001 C CNN
-F 1 "GND" H 1900 4350 50  0000 C CNN
-F 2 "" H 1900 4500 50  0001 C CNN
-F 3 "" H 1900 4500 50  0001 C CNN
-	1    1900 4500
-	1    0    0    -1  
+P 1900 4250
+F 0 "#PWR018" H 1900 4000 50  0001 C CNN
+F 1 "GND" H 1900 4100 50  0000 C CNN
+F 2 "" H 1900 4250 50  0001 C CNN
+F 3 "" H 1900 4250 50  0001 C CNN
+	1    1900 4250
+	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C4
@@ -1136,11 +1136,6 @@ Connection ~ 1450 3850
 Wire Wire Line
 	2000 4250 1900 4250
 Wire Wire Line
-	1900 4250 1900 4500
-Wire Wire Line
-	2000 4350 1900 4350
-Connection ~ 1900 4350
-Wire Wire Line
 	3100 3850 6300 3850
 Wire Wire Line
 	4700 3850 4700 3900
@@ -1336,4 +1331,17 @@ Text Notes 6300 3750 0    60   ~ 12
 1A
 Text Notes 6300 5800 0    60   ~ 12
 2A
+$Comp
+L GND #PWR?
+U 1 1 59DCF76D
+P 1900 4350
+F 0 "#PWR?" H 1900 4100 50  0001 C CNN
+F 1 "GND" H 1900 4200 50  0000 C CNN
+F 2 "" H 1900 4350 50  0001 C CNN
+F 3 "" H 1900 4350 50  0001 C CNN
+	1    1900 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 4350 1900 4350
 $EndSCHEMATC
