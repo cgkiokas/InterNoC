@@ -614,7 +614,7 @@ F 3 "" H 8200 3200 50  0001 C CNN
 	1    8200 3200
 	-1   0    0    -1  
 $EndComp
-Text Notes 7400 2900 0    39   Italic 0
+Text Notes 7350 2700 0    39   Italic 0
 DONE_O use internal \n10k pullup so a \nmosfet is used to\nturn the done led
 $Comp
 L PWR_FLAG #FLG096
@@ -1337,6 +1337,276 @@ Text Label 9250 13350 0    60   ~ 0
 VCCO_34
 Text Label 19100 6250 0    60   ~ 0
 VCCO_14
+Text GLabel 8650 6600 0    60   Input ~ 0
+LED_1
+Text GLabel 8650 6500 0    60   Input ~ 0
+LED_2
+Text GLabel 8650 6400 0    60   Input ~ 0
+LED_3
+Text GLabel 8650 5600 0    60   Input ~ 0
+LED_4
+Text GLabel 8650 5700 0    60   Input ~ 0
+LED_5
+Text GLabel 8650 5400 0    60   Input ~ 0
+LED_6
+Text GLabel 8650 5200 0    60   Input ~ 0
+LED_7
+Text GLabel 8650 5500 0    60   Input ~ 0
+LED_8
+Text GLabel 8650 5300 0    60   Input ~ 0
+LED_9
+Text GLabel 8650 5100 0    60   Input ~ 0
+LED_10
+Text GLabel 8650 5000 0    60   Input ~ 0
+LED_11
+Text GLabel 18650 7750 0    60   Input ~ 0
+LED_12
+Text GLabel 18650 7950 0    60   Input ~ 0
+LED_13
+Text GLabel 18650 7850 0    60   Input ~ 0
+LED_14
+Text GLabel 18650 8150 0    60   Input ~ 0
+LED_15
+Text GLabel 18650 8050 0    60   Input ~ 0
+LED_16
+Text GLabel 18650 8250 0    60   Input ~ 0
+LED_17
+Text GLabel 18650 8350 0    60   Input ~ 0
+LED_18
+Text GLabel 18650 8750 0    60   Input ~ 0
+LED_19
+Text GLabel 18650 8650 0    60   Input ~ 0
+LED_20
+Text GLabel 18650 8850 0    60   Input ~ 0
+LED_21
+Text GLabel 18650 9050 0    60   Input ~ 0
+LED_22
+Text GLabel 18650 9150 0    60   Input ~ 0
+LED_23
+Text GLabel 18650 9250 0    60   Input ~ 0
+LED_24
+Text GLabel 18650 9650 0    60   Input ~ 0
+CLOCK
+Text GLabel 8750 11650 0    60   Input ~ 0
+GP_BTN_1
+Text GLabel 8750 12150 0    60   Input ~ 0
+GP_BTN_2
+Text GLabel 8650 6300 0    60   Input ~ 0
+SPI_MASTER_1_SCLK
+Text GLabel 8650 7200 0    60   Input ~ 0
+SPI_MASTER_1_MOSI
+Text GLabel 8650 6200 0    60   Input ~ 0
+SPI_MASTER_1_MISO
+Text GLabel 8650 6700 0    60   Input ~ 0
+SPI_MASTER_1_CS
+Text GLabel 8650 7300 0    60   Input ~ 0
+SPI_MASTER_2_SCLK
+Text GLabel 8650 7000 0    60   Input ~ 0
+SPI_MASTER_2_MOSI
+Text GLabel 8650 6800 0    60   Input ~ 0
+SPI_MASTER_2_MISO
+Text GLabel 8650 6000 0    60   Input ~ 0
+SPI_MASTER_2_CS
+Text GLabel 8650 6900 0    60   Input ~ 0
+SPI_MASTER_3_SCLK
+Text GLabel 8650 7800 0    60   Input ~ 0
+SPI_MASTER_3_MOSI
+Text GLabel 8650 7100 0    60   Input ~ 0
+SPI_MASTER_3_MISO
+Text GLabel 8650 7400 0    60   Input ~ 0
+SPI_MASTER_3_CS
+Text GLabel 8650 7900 0    60   Input ~ 0
+I2C_MASTER_1_SDA
+Text GLabel 8650 7600 0    60   Input ~ 0
+I2C_MASTER_1_SCL
+Text GLabel 8650 8200 0    60   Input ~ 0
+I2C_MASTER_2_SDA
+Text GLabel 8650 8300 0    60   Input ~ 0
+I2C_MASTER_2_SCL
+Text GLabel 8700 8800 0    60   Input ~ 0
+I2C_MASTER_3_SDA
+Text GLabel 8700 8900 0    60   Input ~ 0
+I2C_MASTER_3_SCL
+Text GLabel 8700 9200 0    60   Input ~ 0
+I2C_MASTER_4_SDA
+Text GLabel 8700 9100 0    60   Input ~ 0
+I2C_MASTER_4_SCL
+Text GLabel 8700 9300 0    60   Input ~ 0
+UART_MASTER_1_TX
+Text GLabel 8700 9600 0    60   Input ~ 0
+UART_MASTER_1_RX
+Text GLabel 18650 9350 0    60   Input ~ 0
+SPI_SLAVE_1_SCLK
+Text GLabel 18650 8950 0    60   Input ~ 0
+SPI_SLAVE_1_MOSI
+Text GLabel 18650 10650 0    60   Input ~ 0
+SPI_SLAVE_1_MISO
+Text GLabel 18650 10250 0    60   Input ~ 0
+SPI_SLAVE_1_CS
+Text GLabel 18650 10850 0    60   Input ~ 0
+SPI_SLAVE_2_SCLK
+Text GLabel 18650 10750 0    60   Input ~ 0
+SPI_SLAVE_2_MOSI
+Text GLabel 18650 10950 0    60   Input ~ 0
+SPI_SLAVE_2_MISO
+Text GLabel 18650 11450 0    60   Input ~ 0
+SPI_SLAVE_2_CS
+Text GLabel 18650 11650 0    60   Input ~ 0
+SPI_SLAVE_3_SCLK
+Text GLabel 18650 12050 0    60   Input ~ 0
+SPI_SLAVE_3_MOSI
+Text GLabel 18650 12150 0    60   Input ~ 0
+SPI_SLAVE_3_MISO
+Text GLabel 18650 11750 0    60   Input ~ 0
+SPI_SLAVE_3_CS
+Text GLabel 18650 11850 0    60   Input ~ 0
+I2C_SLAVE_1_SDA
+Text GLabel 18650 11950 0    60   Input ~ 0
+I2C_SLAVE_1_SCL
+Text GLabel 18600 1850 0    60   Input ~ 0
+I2C_SLAVE_2_SDA
+Text GLabel 18600 1950 0    60   Input ~ 0
+I2C_SLAVE_2_SCL
+Text GLabel 18600 2750 0    60   Input ~ 0
+I2C_SLAVE_3_SDA
+Text GLabel 18600 2050 0    60   Input ~ 0
+I2C_SLAVE_3_SCL
+Text GLabel 18600 2650 0    60   Input ~ 0
+I2C_SLAVE_4_SDA
+Text GLabel 18600 3750 0    60   Input ~ 0
+I2C_SLAVE_4_SCL
+Text GLabel 18600 2850 0    60   Input ~ 0
+UART_SLAVE_1_TX
+Text GLabel 18600 2950 0    60   Input ~ 0
+UART_SLAVE_1_RX
+Text GLabel 8750 12050 0    60   Input ~ 0
+SPI_SLAVE_4_SCLK
+Text GLabel 8750 12650 0    60   Input ~ 0
+SPI_SLAVE_4_MOSI
+Text GLabel 8750 12750 0    60   Input ~ 0
+SPI_SLAVE_4_MISO
+Text GLabel 8750 12850 0    60   Input ~ 0
+SPI_SLAVE_4_CS
+Text GLabel 8750 12950 0    60   Input ~ 0
+SPI_SLAVE_5_SCLK
+Text GLabel 8750 13050 0    60   Input ~ 0
+SPI_SLAVE_5_MOSI
+Text GLabel 8750 12350 0    60   Input ~ 0
+SPI_SLAVE_5_MISO
+Text GLabel 8750 13150 0    60   Input ~ 0
+SPI_SLAVE_5_CS
+Text GLabel 18600 5950 0    60   Input ~ 0
+SPI_SLAVE_6_SCLK
+Text GLabel 18600 5850 0    60   Input ~ 0
+SPI_SLAVE_6_MOSI
+Text GLabel 18600 6150 0    60   Input ~ 0
+SPI_SLAVE_6_MISO
+Text GLabel 18600 1750 0    60   Input ~ 0
+SPI_SLAVE_6_CS
+Text GLabel 18600 5550 0    60   Input ~ 0
+I2C_SLAVE_5_SDA
+Text GLabel 18600 6050 0    60   Input ~ 0
+I2C_SLAVE_5_SCL
+Text GLabel 18600 5450 0    60   Input ~ 0
+I2C_SLAVE_6_SDA
+Text GLabel 18600 5250 0    60   Input ~ 0
+I2C_SLAVE_6_SCL
+Text GLabel 18600 5750 0    60   Input ~ 0
+I2C_SLAVE_7_SDA
+Text GLabel 18600 4850 0    60   Input ~ 0
+I2C_SLAVE_7_SCL
+Text GLabel 18600 5650 0    60   Input ~ 0
+I2C_SLAVE_8_SDA
+Text GLabel 18600 4750 0    60   Input ~ 0
+I2C_SLAVE_8_SCL
+Text GLabel 18600 4650 0    60   Input ~ 0
+UART_SLAVE_2_TX
+Text GLabel 18600 4050 0    60   Input ~ 0
+UART_SLAVE_2_RX
+NoConn ~ 9600 4800
+NoConn ~ 9600 4900
+NoConn ~ 9600 5800
+NoConn ~ 9600 5900
+NoConn ~ 9600 6100
+NoConn ~ 9600 7500
+NoConn ~ 9600 7700
+NoConn ~ 9600 8000
+NoConn ~ 9600 8100
+NoConn ~ 9600 8400
+NoConn ~ 9600 8500
+NoConn ~ 9600 8600
+NoConn ~ 9600 8700
+NoConn ~ 9600 9000
+NoConn ~ 9600 9400
+NoConn ~ 9600 9500
+NoConn ~ 9600 9700
+NoConn ~ 9650 11350
+NoConn ~ 9650 11450
+NoConn ~ 9650 11550
+NoConn ~ 9650 11750
+NoConn ~ 9650 11850
+NoConn ~ 9650 11950
+NoConn ~ 9650 12250
+NoConn ~ 9650 12450
+NoConn ~ 9650 12550
+NoConn ~ 9650 13250
+NoConn ~ 19550 11550
+NoConn ~ 19550 11350
+NoConn ~ 19550 11250
+NoConn ~ 19550 11150
+NoConn ~ 19550 11050
+NoConn ~ 19550 10550
+NoConn ~ 19550 10450
+NoConn ~ 19550 10350
+NoConn ~ 19550 10150
+NoConn ~ 19550 10050
+NoConn ~ 19550 9950
+NoConn ~ 19550 9850
+NoConn ~ 19550 9750
+NoConn ~ 19550 9550
+NoConn ~ 19550 9450
+NoConn ~ 19550 8550
+NoConn ~ 19550 8450
+NoConn ~ 19550 7650
+NoConn ~ 19550 7550
+NoConn ~ 19550 7450
+NoConn ~ 19550 7350
+NoConn ~ 19550 7250
+NoConn ~ 19550 5350
+NoConn ~ 19550 5150
+NoConn ~ 19550 5050
+NoConn ~ 19550 4950
+NoConn ~ 19550 4550
+NoConn ~ 19550 4450
+NoConn ~ 19550 4350
+NoConn ~ 19550 4250
+NoConn ~ 19550 4150
+NoConn ~ 19550 3950
+NoConn ~ 19550 3850
+NoConn ~ 19550 3650
+NoConn ~ 19550 3550
+NoConn ~ 19550 3450
+NoConn ~ 19550 3350
+NoConn ~ 19550 3250
+NoConn ~ 19550 3150
+NoConn ~ 19550 3050
+NoConn ~ 19550 2550
+NoConn ~ 19550 2450
+NoConn ~ 19550 2350
+NoConn ~ 19550 2250
+NoConn ~ 19550 2150
+NoConn ~ 19550 1650
+$Comp
+L GND #PWR0106
+U 1 1 59E70861
+P 1100 5500
+F 0 "#PWR0106" H 1100 5250 50  0001 C CNN
+F 1 "GND" H 1100 5350 50  0000 C CNN
+F 2 "" H 1100 5500 50  0001 C CNN
+F 3 "" H 1100 5500 50  0001 C CNN
+	1    1100 5500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6950 2600 6950 2700
 Connection ~ 6950 2000
@@ -2162,282 +2432,12 @@ Wire Wire Line
 	19550 12050 18650 12050
 Wire Wire Line
 	18650 12150 19550 12150
-Text GLabel 8650 6600 0    60   Input ~ 0
-LED_1
-Text GLabel 8650 6500 0    60   Input ~ 0
-LED_2
-Text GLabel 8650 6400 0    60   Input ~ 0
-LED_3
-Text GLabel 8650 5600 0    60   Input ~ 0
-LED_4
-Text GLabel 8650 5700 0    60   Input ~ 0
-LED_5
-Text GLabel 8650 5400 0    60   Input ~ 0
-LED_6
-Text GLabel 8650 5200 0    60   Input ~ 0
-LED_7
-Text GLabel 8650 5500 0    60   Input ~ 0
-LED_8
-Text GLabel 8650 5300 0    60   Input ~ 0
-LED_9
-Text GLabel 8650 5100 0    60   Input ~ 0
-LED_10
-Text GLabel 8650 5000 0    60   Input ~ 0
-LED_11
-Text GLabel 18650 7750 0    60   Input ~ 0
-LED_12
-Text GLabel 18650 7950 0    60   Input ~ 0
-LED_13
-Text GLabel 18650 7850 0    60   Input ~ 0
-LED_14
-Text GLabel 18650 8150 0    60   Input ~ 0
-LED_15
-Text GLabel 18650 8050 0    60   Input ~ 0
-LED_16
-Text GLabel 18650 8250 0    60   Input ~ 0
-LED_17
-Text GLabel 18650 8350 0    60   Input ~ 0
-LED_18
-Text GLabel 18650 8750 0    60   Input ~ 0
-LED_19
-Text GLabel 18650 8650 0    60   Input ~ 0
-LED_20
-Text GLabel 18650 8850 0    60   Input ~ 0
-LED_21
-Text GLabel 18650 9050 0    60   Input ~ 0
-LED_22
-Text GLabel 18650 9150 0    60   Input ~ 0
-LED_23
-Text GLabel 18650 9250 0    60   Input ~ 0
-LED_24
-Text GLabel 18650 9650 0    60   Input ~ 0
-CLOCK
-Text GLabel 8750 11650 0    60   Input ~ 0
-GP_BTN_1
-Text GLabel 8750 12150 0    60   Input ~ 0
-GP_BTN_2
-Text GLabel 8650 6300 0    60   Input ~ 0
-SPI_MASTER_1_SCLK
-Text GLabel 8650 7200 0    60   Input ~ 0
-SPI_MASTER_1_MOSI
-Text GLabel 8650 6200 0    60   Input ~ 0
-SPI_MASTER_1_MISO
-Text GLabel 8650 6700 0    60   Input ~ 0
-SPI_MASTER_1_CS
-Text GLabel 8650 7300 0    60   Input ~ 0
-SPI_MASTER_2_SCLK
-Text GLabel 8650 7000 0    60   Input ~ 0
-SPI_MASTER_2_MOSI
-Text GLabel 8650 6800 0    60   Input ~ 0
-SPI_MASTER_2_MISO
-Text GLabel 8650 6000 0    60   Input ~ 0
-SPI_MASTER_2_CS
-Text GLabel 8650 6900 0    60   Input ~ 0
-SPI_MASTER_3_SCLK
-Text GLabel 8650 7800 0    60   Input ~ 0
-SPI_MASTER_3_MOSI
-Text GLabel 8650 7100 0    60   Input ~ 0
-SPI_MASTER_3_MISO
-Text GLabel 8650 7400 0    60   Input ~ 0
-SPI_MASTER_3_CS
-Text GLabel 8650 7900 0    60   Input ~ 0
-I2C_MASTER_1_SDA
-Text GLabel 8650 7600 0    60   Input ~ 0
-I2C_MASTER_1_SCL
-Text GLabel 8650 8200 0    60   Input ~ 0
-I2C_MASTER_2_SDA
-Text GLabel 8650 8300 0    60   Input ~ 0
-I2C_MASTER_2_SCL
-Text GLabel 8700 8800 0    60   Input ~ 0
-I2C_MASTER_3_SDA
-Text GLabel 8700 8900 0    60   Input ~ 0
-I2C_MASTER_3_SCL
-Text GLabel 8700 9200 0    60   Input ~ 0
-I2C_MASTER_4_SDA
-Text GLabel 8700 9100 0    60   Input ~ 0
-I2C_MASTER_4_SCL
-Text GLabel 8700 9300 0    60   Input ~ 0
-UART_MASTER_1_TX
-Text GLabel 8700 9600 0    60   Input ~ 0
-UART_MASTER_1_RX
-Text GLabel 18650 9350 0    60   Input ~ 0
-SPI_SLAVE_1_SCLK
-Text GLabel 18650 8950 0    60   Input ~ 0
-SPI_SLAVE_1_MOSI
-Text GLabel 18650 10650 0    60   Input ~ 0
-SPI_SLAVE_1_MISO
-Text GLabel 18650 10250 0    60   Input ~ 0
-SPI_SLAVE_1_CS
-Text GLabel 18650 10850 0    60   Input ~ 0
-SPI_SLAVE_2_SCLK
-Text GLabel 18650 10750 0    60   Input ~ 0
-SPI_SLAVE_2_MOSI
-Text GLabel 18650 10950 0    60   Input ~ 0
-SPI_SLAVE_2_MISO
-Text GLabel 18650 11450 0    60   Input ~ 0
-SPI_SLAVE_2_CS
-Text GLabel 18650 11650 0    60   Input ~ 0
-SPI_SLAVE_3_SCLK
-Text GLabel 18650 12050 0    60   Input ~ 0
-SPI_SLAVE_3_MOSI
-Text GLabel 18650 12150 0    60   Input ~ 0
-SPI_SLAVE_3_MISO
-Text GLabel 18650 11750 0    60   Input ~ 0
-SPI_SLAVE_3_CS
-Text GLabel 18650 11850 0    60   Input ~ 0
-I2C_SLAVE_1_SDA
-Text GLabel 18650 11950 0    60   Input ~ 0
-I2C_SLAVE_1_SCL
-Text GLabel 18600 1850 0    60   Input ~ 0
-I2C_SLAVE_2_SDA
-Text GLabel 18600 1950 0    60   Input ~ 0
-I2C_SLAVE_2_SCL
-Text GLabel 18600 2750 0    60   Input ~ 0
-I2C_SLAVE_3_SDA
-Text GLabel 18600 2050 0    60   Input ~ 0
-I2C_SLAVE_3_SCL
-Text GLabel 18600 2650 0    60   Input ~ 0
-I2C_SLAVE_4_SDA
-Text GLabel 18600 3750 0    60   Input ~ 0
-I2C_SLAVE_4_SCL
-Text GLabel 18600 2850 0    60   Input ~ 0
-UART_SLAVE_1_TX
-Text GLabel 18600 2950 0    60   Input ~ 0
-UART_SLAVE_1_RX
-Text GLabel 8750 12050 0    60   Input ~ 0
-SPI_SLAVE_4_SCLK
-Text GLabel 8750 12650 0    60   Input ~ 0
-SPI_SLAVE_4_MOSI
-Text GLabel 8750 12750 0    60   Input ~ 0
-SPI_SLAVE_4_MISO
-Text GLabel 8750 12850 0    60   Input ~ 0
-SPI_SLAVE_4_CS
-Text GLabel 8750 12950 0    60   Input ~ 0
-SPI_SLAVE_5_SCLK
-Text GLabel 8750 13050 0    60   Input ~ 0
-SPI_SLAVE_5_MOSI
-Text GLabel 8750 12350 0    60   Input ~ 0
-SPI_SLAVE_5_MISO
-Text GLabel 8750 13150 0    60   Input ~ 0
-SPI_SLAVE_5_CS
-Text GLabel 18600 5950 0    60   Input ~ 0
-SPI_SLAVE_6_SCLK
-Text GLabel 18600 5850 0    60   Input ~ 0
-SPI_SLAVE_6_MOSI
-Text GLabel 18600 6150 0    60   Input ~ 0
-SPI_SLAVE_6_MISO
-Text GLabel 18600 1750 0    60   Input ~ 0
-SPI_SLAVE_6_CS
-Text GLabel 18600 5550 0    60   Input ~ 0
-I2C_SLAVE_5_SDA
-Text GLabel 18600 6050 0    60   Input ~ 0
-I2C_SLAVE_5_SCL
-Text GLabel 18600 5450 0    60   Input ~ 0
-I2C_SLAVE_6_SDA
-Text GLabel 18600 5250 0    60   Input ~ 0
-I2C_SLAVE_6_SCL
-Text GLabel 18600 5750 0    60   Input ~ 0
-I2C_SLAVE_7_SDA
-Text GLabel 18600 4850 0    60   Input ~ 0
-I2C_SLAVE_7_SCL
-Text GLabel 18600 5650 0    60   Input ~ 0
-I2C_SLAVE_8_SDA
-Text GLabel 18600 4750 0    60   Input ~ 0
-I2C_SLAVE_8_SCL
-Text GLabel 18600 4650 0    60   Input ~ 0
-UART_SLAVE_2_TX
-Text GLabel 18600 4050 0    60   Input ~ 0
-UART_SLAVE_2_RX
 Wire Wire Line
 	18650 8950 19550 8950
 Wire Wire Line
 	18650 9350 19550 9350
-NoConn ~ 9600 4800
-NoConn ~ 9600 4900
-NoConn ~ 9600 5800
-NoConn ~ 9600 5900
-NoConn ~ 9600 6100
-NoConn ~ 9600 7500
-NoConn ~ 9600 7700
-NoConn ~ 9600 8000
-NoConn ~ 9600 8100
-NoConn ~ 9600 8400
-NoConn ~ 9600 8500
-NoConn ~ 9600 8600
-NoConn ~ 9600 8700
-NoConn ~ 9600 9000
-NoConn ~ 9600 9400
-NoConn ~ 9600 9500
-NoConn ~ 9600 9700
-NoConn ~ 9650 11350
-NoConn ~ 9650 11450
-NoConn ~ 9650 11550
-NoConn ~ 9650 11750
-NoConn ~ 9650 11850
-NoConn ~ 9650 11950
-NoConn ~ 9650 12250
-NoConn ~ 9650 12450
-NoConn ~ 9650 12550
-NoConn ~ 9650 13250
-NoConn ~ 19550 11550
-NoConn ~ 19550 11350
-NoConn ~ 19550 11250
-NoConn ~ 19550 11150
-NoConn ~ 19550 11050
-NoConn ~ 19550 10550
-NoConn ~ 19550 10450
-NoConn ~ 19550 10350
-NoConn ~ 19550 10150
-NoConn ~ 19550 10050
-NoConn ~ 19550 9950
-NoConn ~ 19550 9850
-NoConn ~ 19550 9750
-NoConn ~ 19550 9550
-NoConn ~ 19550 9450
-NoConn ~ 19550 8550
-NoConn ~ 19550 8450
-NoConn ~ 19550 7650
-NoConn ~ 19550 7550
-NoConn ~ 19550 7450
-NoConn ~ 19550 7350
-NoConn ~ 19550 7250
-NoConn ~ 19550 5350
-NoConn ~ 19550 5150
-NoConn ~ 19550 5050
-NoConn ~ 19550 4950
-NoConn ~ 19550 4550
-NoConn ~ 19550 4450
-NoConn ~ 19550 4350
-NoConn ~ 19550 4250
-NoConn ~ 19550 4150
-NoConn ~ 19550 3950
-NoConn ~ 19550 3850
-NoConn ~ 19550 3650
-NoConn ~ 19550 3550
-NoConn ~ 19550 3450
-NoConn ~ 19550 3350
-NoConn ~ 19550 3250
-NoConn ~ 19550 3150
-NoConn ~ 19550 3050
-NoConn ~ 19550 2550
-NoConn ~ 19550 2450
-NoConn ~ 19550 2350
-NoConn ~ 19550 2250
-NoConn ~ 19550 2150
-NoConn ~ 19550 1650
 Wire Wire Line
 	1100 5400 4450 5400
-$Comp
-L GND #PWR0106
-U 1 1 59E70861
-P 1100 5500
-F 0 "#PWR0106" H 1100 5250 50  0001 C CNN
-F 1 "GND" H 1100 5350 50  0000 C CNN
-F 2 "" H 1100 5500 50  0001 C CNN
-F 3 "" H 1100 5500 50  0001 C CNN
-	1    1100 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 5400 1100 5500
 $EndSCHEMATC
